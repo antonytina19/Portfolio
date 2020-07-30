@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=yes">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -14,61 +14,82 @@
 </head>
 
 <body>
-    <div class="hamburger-icon">
-        <input type="checkbox" id="check">
-        <label for="check">
-            <i id="show-btn" class="fas fa-bars"></i>
-            <i id="remove-btn"class="fas fa-times"></i>
-        </label>
-    </div>
     <section class="menu">
         <li class="navlink"><a href="/homepage/html/home.html">Home</a></li>
         <li class="navlink"><a href="/resumepage/html/resume.html">About</a></li>
         <li class="navlink"><a href="/work(portfolio)page/html/work.html">Portfolio</a></li>
         <li class="navlink"><a href="/contactpage/html/contact.html">Contact</a></li>
     </section>
-
-    <section class="info-section">
-        <div class="logo">
-            <span>TINA</span>
-            <span>  ANTONY</span>
+    <div class="not-responsive">
+        <div class="hamburger-icon">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i id="show-btn" class="fas fa-bars"></i>
+                <i id="remove-btn"class="fas fa-times"></i>
+            </label>
         </div>
-        <div class="info-box">
-            <h4>Email</h4>
-            <p>antonytina79@gmail.com</p>
-            <h4>Phone</h4>
-            <p>3454196136</p>
-            <h4>Find Me on</h4>
-            <div class="icon-section">
-                <a href="https://www.facebook.com/antony.tina.5"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com/tinaantony/"><i class="fab fa-instagram-square"></i></a>
-                <a href=""><i class="fab fa-linkedin"></i></a>
-                <a href=""><i class="fab fa-discord"></i></a>
+        <section class="info-section">
+            <div class="logo">
+                <span>TINA</span>
+                <span>  ANTONY</span>
             </div>
-        </div>
-    </section>
-    <section class="content-area">
-        <div class="image-container">
-            <div class="user-image"></div>
-        </div>
+            <div class="info-box">
+                <h4>Email</h4>
+                <p>antonytina79@gmail.com</p>
+                <h4>Phone</h4>
+                <p>3454196136</p>
+                <h4>Find Me on</h4>
+                <div class="icon-section">
+                    <a href="https://www.facebook.com/antony.tina.5"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/tinaantony/"><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="content-area">
+            <div class="image-container">
+                <div class="user-image"></div>
+            </div>
 
-        <div class="profile-section">
-            <div class="profile">
-                <h1>TINA<br><span>ANTONY</span></h1>
-                <h5 class="sub-title">Aspirant Web Developer</h5>
-                <p class="text">Hi I'm Tina Antony and I'm 18 years old.I've the passion for web developzment so I want to become a web developer.I know the basics of JAVA and PYTHON because I've studied them to school but I'm not an expert, so if you'll need of young
-                    people like me for a stage please contact me because I want to get work experience and most importantly I want learning more about programming...</p>
-                <div class="center-container">
-                    <div class="button">
-                        <a href="/work(portfolio)page/html/work.html" class="primary-btn"> Portfolio</a>
-                        <a href="/resumepage/html/resume.html" class="ghost-btn">Resume</a>
-                        <a href="/contactpage/html/contact.html" class="ghost-btn">Contact</a>
+            <div class="profile-section">
+                <div class="profile">
+                    <h1>TINA<br><span>ANTONY</span></h1>
+                    <h5 class="sub-title">Aspirant Web Developer</h5>
+                    <p class="text">Hi I'm Tina Antony and I'm 18 years old.I've the passion for web developzment so I want to become a web developer.I know the basics of JAVA and PYTHON because I've studied them to school but I'm not an expert, so if you'll need of
+                        young people like me for a stage please contact me because I want to get work experience and most importantly I want learning more about programming...</p>
+                    <div class="center-container">
+                        <div class="button">
+                            <a href="/work(portfolio)page/html/work.html" class="primary-btn"> Portfolio</a>
+                            <a href="/resumepage/html/resume.html" class="ghost-btn">Resume</a>
+                            <a href="/contactpage/html/contact.html" class="ghost-btn">Contact</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+    </div>
+    <div class="responsive">
+        <header>
+            <div class="logo">
+                <span>TINA</span>
+                <span>ANTONY</span>
+            </div>
+            <div class="hamburger-icon">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <i id="show-btn" class="fas fa-bars"></i>
+                    <i id="remove-btn"class="fas fa-times"></i>
+                </label>
+            </div>
+        </header>
+        <main>
 
-    </section>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
 </body>
 <script>
     $(document).ready(function() {
