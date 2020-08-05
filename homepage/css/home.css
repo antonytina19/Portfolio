@@ -383,6 +383,12 @@ body {
   left: 0;
 }
 
+@media screen and (max-width: 576px) and (orientation: landscape) {
+  .menu .navlink {
+    font-size: 6.5vh;
+  }
+}
+
 @media screen and (max-width: 576px) {
   body {
     background: white;
@@ -669,6 +675,12 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .menu .navlink {
+    font-size: 6.5vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body {
     background: white;
@@ -683,7 +695,6 @@ body {
     bottom: 100%;
   }
   body .menu .navlink {
-    font-size: 5.5vh;
     margin: 5.5vh 0 5.5vh 0;
   }
   body .slide {
@@ -959,7 +970,13 @@ body {
   }
 }
 
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .menu .navlink {
+    font-size: 6.5vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
   body {
     background: white;
     overflow-y: scroll;
@@ -973,7 +990,6 @@ body {
     bottom: 100%;
   }
   body .menu .navlink {
-    font-size: 5.5vh;
     margin: 5.5vh 0 5.5vh 0;
   }
   body .slide {
