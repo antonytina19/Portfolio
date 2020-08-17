@@ -904,12 +904,34 @@ body {
     transition: transform 0.4s ease-in-out .09s, -webkit-transform 0.4s ease-in-out .09s;
     letter-spacing: 4px;
   }
-  body .responsive main .content-area .work .project-section .project-box .container button .view {
+  body .responsive main .content-area .work .project-section a {
+    -webkit-transform: translateY(-7vh);
+            transform: translateY(-7vh);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-decoration: none;
-    font-size: 20px;
+  }
+  body .responsive main .content-area .work .project-section a .view {
     color: white;
+    font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
+    -webkit-transform: perspective(100px) rotateX(90deg);
+            transform: perspective(100px) rotateX(90deg);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .not-rotated {
+    -webkit-transform: perspective(100px) rotateX(0deg);
+            transform: perspective(100px) rotateX(0deg);
   }
   body .responsive footer {
     width: auto;
@@ -1181,12 +1203,34 @@ body {
     transition: transform 0.4s ease-in-out .09s, -webkit-transform 0.4s ease-in-out .09s;
     letter-spacing: 4px;
   }
-  body .responsive main .content-area .work .project-section .project-box .container button .view {
+  body .responsive main .content-area .work .project-section a {
+    -webkit-transform: translateY(-7vh);
+            transform: translateY(-7vh);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-decoration: none;
-    font-size: 20px;
+  }
+  body .responsive main .content-area .work .project-section a .view {
     color: white;
+    font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
+    -webkit-transform: perspective(100px) rotateX(90deg);
+            transform: perspective(100px) rotateX(90deg);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .not-rotated {
+    -webkit-transform: perspective(100px) rotateX(0deg);
+            transform: perspective(100px) rotateX(0deg);
   }
   body .responsive footer {
     width: auto;
@@ -1452,12 +1496,34 @@ body {
     transition: transform 0.4s ease-in-out .09s, -webkit-transform 0.4s ease-in-out .09s;
     letter-spacing: 4px;
   }
-  body .responsive main .content-area .work .project-section .project-box .container button .view {
+  body .responsive main .content-area .work .project-section a {
+    -webkit-transform: translateY(-7vh);
+            transform: translateY(-7vh);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-decoration: none;
-    font-size: 20px;
+  }
+  body .responsive main .content-area .work .project-section a .view {
     color: white;
+    font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
+    -webkit-transform: perspective(100px) rotateX(90deg);
+            transform: perspective(100px) rotateX(90deg);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .not-rotated {
+    -webkit-transform: perspective(100px) rotateX(0deg);
+            transform: perspective(100px) rotateX(0deg);
   }
   body .responsive footer {
     width: auto;
@@ -1721,6 +1787,35 @@ body {
     transition: transform 0.4s ease-in-out .09s;
     transition: transform 0.4s ease-in-out .09s, -webkit-transform 0.4s ease-in-out .09s;
     letter-spacing: 4px;
+  }
+  body .responsive main .content-area .work .project-section a {
+    -webkit-transform: translateY(-7vh);
+            transform: translateY(-7vh);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+  }
+  body .responsive main .content-area .work .project-section a .view {
+    color: white;
+    font-size: 2.5vh;
+    background-color: orangered;
+    padding: 10px 15px;
+    -webkit-transform: perspective(100px) rotateX(90deg);
+            transform: perspective(100px) rotateX(90deg);
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .not-rotated {
+    -webkit-transform: perspective(100px) rotateX(0deg);
+            transform: perspective(100px) rotateX(0deg);
   }
   body .responsive footer {
     width: auto;
