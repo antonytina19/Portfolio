@@ -34,40 +34,31 @@ body {
   top: 56px;
   width: 50px;
   height: 50px;
-  z-index: 30;
 }
 
-.not-responsive .hamburger-icon #check {
-  display: none;
-}
-
-.not-responsive .hamburger-icon #check:checked ~ label #remove-btn {
-  opacity: 1;
-  visibility: visible;
-}
-
-.not-responsive .hamburger-icon #check:checked ~ label #show-btn {
-  opacity: 0;
-  visibility: hidden;
+.not-responsive .hamburger-icon .active {
+  color: #be0404;
 }
 
 .not-responsive .hamburger-icon label i {
+  padding: 10px;
   cursor: pointer;
   position: absolute;
   top: 0;
   left: 0;
   color: #be0404;
   font-size: 50px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.not-responsive .hamburger-icon label i:hover {
+  background-color: #8b8b8b;
 }
 
 .not-responsive .hamburger-icon label #show-btn {
   opacity: 1;
   visibility: visible;
-}
-
-.not-responsive .hamburger-icon label #remove-btn {
-  opacity: 0;
-  visibility: hidden;
 }
 
 .not-responsive .info-section {
@@ -291,6 +282,22 @@ body {
   overflow-y: auto;
 }
 
+.menu #remove-btn {
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 56px;
+  top: 56px;
+  color: #be0404;
+  font-size: 50px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.menu #remove-btn:hover {
+  background-color: #8b8b8b;
+}
+
 .menu .navlink {
   width: 100%;
   list-style: none;
@@ -369,6 +376,9 @@ body {
     top: -100%;
     bottom: 100%;
   }
+  body .menu #remove-btn {
+    display: none;
+  }
   body .slide {
     top: 100px;
     bottom: 0;
@@ -424,16 +434,8 @@ body {
     height: 50px;
     width: 50px;
   }
-  body .responsive header .hamburger-icon #check1 {
-    display: none;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #remove-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #show-btn1 {
-    opacity: 0;
-    visibility: hidden;
+  body .responsive header .hamburger-icon .active {
+    color: #be0404;
   }
   body .responsive header .hamburger-icon label i {
     cursor: pointer;
@@ -442,24 +444,17 @@ body {
     position: absolute;
     right: 15px;
     z-index: 30;
-    -webkit-transition: all .1s linear;
-    transition: all .1s linear;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
   }
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
   }
-  body .responsive header .hamburger-icon label #show-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon label #remove-btn1 {
-    opacity: 0;
-    visibility: hidden;
-  }
   body .responsive main {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     height: auto;
+    width: 100%;
   }
   body .responsive main .content-area {
     width: 95%;
@@ -559,8 +554,7 @@ body {
     width: auto;
     background: #474747;
     height: auto;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    margin-top: 150px;
   }
   body .responsive footer span {
     font-size: 30px;
@@ -622,6 +616,9 @@ body {
     top: -100%;
     bottom: 100%;
   }
+  body .menu #remove-btn {
+    display: none;
+  }
   body .menu .navlink {
     margin: 5.5vh 0 5.5vh 0;
   }
@@ -680,16 +677,8 @@ body {
     height: 50px;
     width: 50px;
   }
-  body .responsive header .hamburger-icon #check1 {
-    display: none;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #remove-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #show-btn1 {
-    opacity: 0;
-    visibility: hidden;
+  body .responsive header .hamburger-icon .active {
+    color: #be0404;
   }
   body .responsive header .hamburger-icon label i {
     cursor: pointer;
@@ -704,18 +693,11 @@ body {
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
   }
-  body .responsive header .hamburger-icon label #show-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon label #remove-btn1 {
-    opacity: 0;
-    visibility: hidden;
-  }
   body .responsive main {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     height: auto;
+    width: 100%;
   }
   body .responsive main .content-area {
     width: 95%;
@@ -878,6 +860,9 @@ body {
     top: -100%;
     bottom: 100%;
   }
+  body .menu #remove-btn {
+    display: none;
+  }
   body .menu .navlink {
     margin: 5.5vh 0 5.5vh 0;
   }
@@ -936,16 +921,8 @@ body {
     height: 50px;
     width: 50px;
   }
-  body .responsive header .hamburger-icon #check1 {
-    display: none;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #remove-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #show-btn1 {
-    opacity: 0;
-    visibility: hidden;
+  body .responsive header .hamburger-icon .active {
+    color: #be0404;
   }
   body .responsive header .hamburger-icon label i {
     cursor: pointer;
@@ -960,18 +937,11 @@ body {
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
   }
-  body .responsive header .hamburger-icon label #show-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon label #remove-btn1 {
-    opacity: 0;
-    visibility: hidden;
-  }
   body .responsive main {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     height: auto;
+    width: 100%;
   }
   body .responsive main .content-area {
     width: 95%;
@@ -1128,6 +1098,9 @@ body {
     top: -100%;
     bottom: 100%;
   }
+  body .menu #remove-btn {
+    display: none;
+  }
   body .menu .navlink {
     margin: 5.5vh 0 5.5vh 0;
   }
@@ -1186,16 +1159,8 @@ body {
     height: 50px;
     width: 50px;
   }
-  body .responsive header .hamburger-icon #check1 {
-    display: none;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #remove-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #show-btn1 {
-    opacity: 0;
-    visibility: hidden;
+  body .responsive header .hamburger-icon .active {
+    color: #be0404;
   }
   body .responsive header .hamburger-icon label i {
     cursor: pointer;
@@ -1210,18 +1175,11 @@ body {
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
   }
-  body .responsive header .hamburger-icon label #show-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon label #remove-btn1 {
-    opacity: 0;
-    visibility: hidden;
-  }
   body .responsive main {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     height: auto;
+    width: 100%;
   }
   body .responsive main .content-area {
     width: 95%;
@@ -1378,6 +1336,9 @@ body {
     top: -100%;
     bottom: 100%;
   }
+  body .menu #remove-btn {
+    display: none;
+  }
   body .menu .navlink {
     margin: 5.5vh 0 5.5vh 0;
   }
@@ -1436,16 +1397,8 @@ body {
     height: 50px;
     width: 50px;
   }
-  body .responsive header .hamburger-icon #check1 {
-    display: none;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #remove-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #show-btn1 {
-    opacity: 0;
-    visibility: hidden;
+  body .responsive header .hamburger-icon .active {
+    color: #be0404;
   }
   body .responsive header .hamburger-icon label i {
     cursor: pointer;
@@ -1460,18 +1413,11 @@ body {
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
   }
-  body .responsive header .hamburger-icon label #show-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon label #remove-btn1 {
-    opacity: 0;
-    visibility: hidden;
-  }
   body .responsive main {
-    -webkit-transform: translateY(150px);
-            transform: translateY(150px);
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     height: auto;
+    width: 100%;
   }
   body .responsive main .content-area {
     width: 95%;
@@ -1628,6 +1574,9 @@ body {
     top: -100%;
     bottom: 100%;
   }
+  body .menu #remove-btn {
+    display: none;
+  }
   body .menu .navlink {
     margin: 5.5vh 0 5.5vh 0;
   }
@@ -1686,16 +1635,8 @@ body {
     height: 50px;
     width: 50px;
   }
-  body .responsive header .hamburger-icon #check1 {
-    display: none;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #remove-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon #check1:checked ~ label #show-btn1 {
-    opacity: 0;
-    visibility: hidden;
+  body .responsive header .hamburger-icon .active {
+    color: #be0404;
   }
   body .responsive header .hamburger-icon label i {
     cursor: pointer;
@@ -1710,18 +1651,11 @@ body {
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
   }
-  body .responsive header .hamburger-icon label #show-btn1 {
-    opacity: 1;
-    visibility: visible;
-  }
-  body .responsive header .hamburger-icon label #remove-btn1 {
-    opacity: 0;
-    visibility: hidden;
-  }
   body .responsive main {
-    -webkit-transform: translateY(40px);
-            transform: translateY(40px);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     height: auto;
+    width: 100%;
   }
   body .responsive main .content-area {
     width: 95%;

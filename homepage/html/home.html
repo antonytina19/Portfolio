@@ -15,6 +15,7 @@
 
 <body>
     <section class="menu">
+        <label for=""><i id="remove-btn" class="fas fa-times"></i></label>
         <li class="navlink"><a href="/homepage/html/home.html">Home</a></li>
         <li class="navlink"><a href="/resumepage/html/resume.html">About</a></li>
         <li class="navlink"><a href="/work(portfolio)page/html/work.html">Portfolio</a></li>
@@ -22,10 +23,8 @@
     </section>
     <div class="not-responsive">
         <div class="hamburger-icon">
-            <input type="checkbox" id="check">
-            <label for="check">
+            <label>
                 <i id="show-btn" class="fas fa-bars"></i>
-                <i id="remove-btn"class="fas fa-times"></i>
             </label>
         </div>
         <section class="info-section">
@@ -76,10 +75,8 @@
                 <span>ANTONY</span>
             </div>
             <div class="hamburger-icon">
-                <input type="checkbox" id="check1">
-                <label for="check1">
+                <label>
                     <i id="show-btn1" class="fas fa-bars"></i>
-                    <i id="remove-btn1"class="fas fa-times"></i>
                 </label>
             </div>
         </header>
@@ -121,9 +118,9 @@
 <script>
     $(document).ready(function() {
         $("label i").click(function() {
+            $(this).toggleClass("active");
             $(".menu").toggleClass("slide");
-        })
-
+        });
     });
 </script>
 

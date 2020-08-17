@@ -31,35 +31,26 @@
                     top: 56px;
                     width: 50px;
                     height: 50px;
-                    z-index: 30;
-                    #check {
-                        display: none;
-                    }
-                    #check:checked~label #remove-btn {
-                        opacity: 1;
-                        visibility: visible;
-                    }
-                    #check:checked~label #show-btn {
-                        opacity: 0;
-                        visibility: hidden;
+                    .active {
+                        color: rgb(190, 4, 4);
                     }
                     label {
                         i {
+                            padding: 10px;
                             cursor: pointer;
                             position: absolute;
                             top: 0;
                             left: 0;
                             color: $redcolor;
                             font-size: 50px;
-                            transition: all .1s linear;
+                            transition: all .4s ease;
+                            &:hover {
+                                background-color: #8b8b8b;
+                            }
                         }
                         #show-btn {
                             opacity: 1;
                             visibility: visible;
-                        }
-                        #remove-btn {
-                            opacity: 0;
-                            visibility: hidden;
                         }
                     }
                 }
@@ -241,6 +232,19 @@
                 background-color: #2c2727;
                 transition: all 0.6s ease-in-out;
                 overflow-y: auto;
+                #remove-btn {
+                    padding: 10px;
+                    cursor: pointer;
+                    position: absolute;
+                    right: 56px;
+                    top: 56px;
+                    color: $redcolor;
+                    font-size: 50px;
+                    transition: all .4s ease;
+                    &:hover {
+                        background-color: #8b8b8b;
+                    }
+                }
                 .navlink {
                     width: 100%;
                     list-style: none;
@@ -305,6 +309,9 @@
                         display: none;
                     }
                     .menu {
+                        #remove-btn {
+                            display: none;
+                        }
                         left: 0;
                         top: -100%;
                         bottom: 100%;
@@ -348,16 +355,8 @@
                             .hamburger-icon {
                                 height: 50px;
                                 width: 50px;
-                                #check1 {
-                                    display: none;
-                                }
-                                #check1:checked~label #remove-btn1 {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-                                #check1:checked~label #show-btn1 {
-                                    opacity: 0;
-                                    visibility: hidden;
+                                .active {
+                                    color: rgb(190, 4, 4);
                                 }
                                 label {
                                     i {
@@ -367,23 +366,19 @@
                                         position: absolute;
                                         right: 15px;
                                         z-index: 30;
-                                        transition: all .1s linear;
+                                        transition: all .5s ease;
                                         &:hover {
                                             color: rgb(190, 4, 4);
                                         }
-                                    }
-                                    #show-btn1 {
-                                        opacity: 1;
-                                        visibility: visible;
-                                    }
-                                    #remove-btn1 {
-                                        opacity: 0;
-                                        visibility: hidden;
                                     }
                                 }
                             }
                         }
                         main {
+                            margin-top: 5vh;
+                            margin-bottom: 5vh;
+                            height: auto;
+                            width: 100%;
                             .content-area {
                                 transform: translateY(100px);
                                 display: flex;
@@ -501,7 +496,7 @@
                                 padding-top: 30px;
                                 color: white;
                                 font-family: sans-serif;
-                                font-weight: 600;
+                                margin-top: 150px;
                             }
                             .icon-section {
                                 display: flex;
@@ -551,6 +546,9 @@
                         left: 0;
                         top: -100%;
                         bottom: 100%;
+                        #remove-btn {
+                            display: none;
+                        }
                         .navlink {
                             margin: 5.5vh 0 5.5vh 0;
                         }
@@ -594,16 +592,8 @@
                             .hamburger-icon {
                                 height: 50px;
                                 width: 50px;
-                                #check1 {
-                                    display: none;
-                                }
-                                #check1:checked~label #remove-btn1 {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-                                #check1:checked~label #show-btn1 {
-                                    opacity: 0;
-                                    visibility: hidden;
+                                .active {
+                                    color: rgb(190, 4, 4);
                                 }
                                 label {
                                     i {
@@ -618,18 +608,14 @@
                                             color: rgb(190, 4, 4);
                                         }
                                     }
-                                    #show-btn1 {
-                                        opacity: 1;
-                                        visibility: visible;
-                                    }
-                                    #remove-btn1 {
-                                        opacity: 0;
-                                        visibility: hidden;
-                                    }
                                 }
                             }
                         }
                         main {
+                            margin-top: 5vh;
+                            margin-bottom: 5vh;
+                            height: auto;
+                            width: 100%;
                             .content-area {
                                 transform: translateY(100px);
                                 display: flex;
@@ -797,6 +783,9 @@
                         left: 0;
                         top: -100%;
                         bottom: 100%;
+                        #remove-btn {
+                            display: none;
+                        }
                         .navlink {
                             margin: 5.5vh 0 5.5vh 0;
                         }
@@ -840,16 +829,8 @@
                             .hamburger-icon {
                                 height: 50px;
                                 width: 50px;
-                                #check1 {
-                                    display: none;
-                                }
-                                #check1:checked~label #remove-btn1 {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-                                #check1:checked~label #show-btn1 {
-                                    opacity: 0;
-                                    visibility: hidden;
+                                .active {
+                                    color: rgb(190, 4, 4);
                                 }
                                 label {
                                     i {
@@ -864,18 +845,14 @@
                                             color: rgb(190, 4, 4);
                                         }
                                     }
-                                    #show-btn1 {
-                                        opacity: 1;
-                                        visibility: visible;
-                                    }
-                                    #remove-btn1 {
-                                        opacity: 0;
-                                        visibility: hidden;
-                                    }
                                 }
                             }
                         }
                         main {
+                            margin-top: 5vh;
+                            margin-bottom: 5vh;
+                            height: auto;
+                            width: 100%;
                             .content-area {
                                 transform: translateY(100px);
                                 display: flex;
@@ -986,8 +963,6 @@
                             background: #474747;
                             height: auto;
                             transform: translateY(100px);
-                            position: relative;
-                            bottom: 0;
                             span {
                                 font-size: 30px;
                                 display: block;
@@ -1037,6 +1012,9 @@
                         left: 0;
                         top: -100%;
                         bottom: 100%;
+                        #remove-btn {
+                            display: none;
+                        }
                         .navlink {
                             margin: 5.5vh 0 5.5vh 0;
                         }
@@ -1080,16 +1058,8 @@
                             .hamburger-icon {
                                 height: 50px;
                                 width: 50px;
-                                #check1 {
-                                    display: none;
-                                }
-                                #check1:checked~label #remove-btn1 {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-                                #check1:checked~label #show-btn1 {
-                                    opacity: 0;
-                                    visibility: hidden;
+                                .active {
+                                    color: rgb(190, 4, 4);
                                 }
                                 label {
                                     i {
@@ -1104,18 +1074,14 @@
                                             color: rgb(190, 4, 4);
                                         }
                                     }
-                                    #show-btn1 {
-                                        opacity: 1;
-                                        visibility: visible;
-                                    }
-                                    #remove-btn1 {
-                                        opacity: 0;
-                                        visibility: hidden;
-                                    }
                                 }
                             }
                         }
                         main {
+                            margin-top: 5vh;
+                            margin-bottom: 5vh;
+                            height: auto;
+                            width: 100%;
                             .content-area {
                                 transform: translateY(100px);
                                 display: flex;
@@ -1226,8 +1192,6 @@
                             background: #474747;
                             height: auto;
                             transform: translateY(100px);
-                            position: relative;
-                            bottom: 0;
                             span {
                                 font-size: 30px;
                                 display: block;
@@ -1276,6 +1240,9 @@
                         left: 0;
                         top: -100%;
                         bottom: 100%;
+                        #remove-btn {
+                            display: none;
+                        }
                         .navlink {
                             margin: 5.5vh 0 5.5vh 0;
                         }
@@ -1319,16 +1286,8 @@
                             .hamburger-icon {
                                 height: 50px;
                                 width: 50px;
-                                #check1 {
-                                    display: none;
-                                }
-                                #check1:checked~label #remove-btn1 {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-                                #check1:checked~label #show-btn1 {
-                                    opacity: 0;
-                                    visibility: hidden;
+                                .active {
+                                    color: rgb(190, 4, 4);
                                 }
                                 label {
                                     i {
@@ -1343,18 +1302,14 @@
                                             color: rgb(190, 4, 4);
                                         }
                                     }
-                                    #show-btn1 {
-                                        opacity: 1;
-                                        visibility: visible;
-                                    }
-                                    #remove-btn1 {
-                                        opacity: 0;
-                                        visibility: hidden;
-                                    }
                                 }
                             }
                         }
                         main {
+                            margin-top: 5vh;
+                            margin-bottom: 5vh;
+                            height: auto;
+                            width: 100%;
                             .content-area {
                                 transform: translateY(100px);
                                 display: flex;
@@ -1465,8 +1420,6 @@
                             background: #474747;
                             height: auto;
                             transform: translateY(100px);
-                            position: relative;
-                            bottom: 0;
                             span {
                                 font-size: 30px;
                                 display: block;
@@ -1559,16 +1512,8 @@
                             .hamburger-icon {
                                 height: 50px;
                                 width: 50px;
-                                #check1 {
-                                    display: none;
-                                }
-                                #check1:checked~label #remove-btn1 {
-                                    opacity: 1;
-                                    visibility: visible;
-                                }
-                                #check1:checked~label #show-btn1 {
-                                    opacity: 0;
-                                    visibility: hidden;
+                                .active {
+                                    color: rgb(190, 4, 4);
                                 }
                                 label {
                                     i {
@@ -1583,18 +1528,14 @@
                                             color: rgb(190, 4, 4);
                                         }
                                     }
-                                    #show-btn1 {
-                                        opacity: 1;
-                                        visibility: visible;
-                                    }
-                                    #remove-btn1 {
-                                        opacity: 0;
-                                        visibility: hidden;
-                                    }
                                 }
                             }
                         }
                         main {
+                            margin-top: 5vh;
+                            margin-bottom: 5vh;
+                            height: auto;
+                            width: 100%;
                             .content-area {
                                 transform: translateY(100px);
                                 display: flex;
@@ -1705,8 +1646,6 @@
                             background: #474747;
                             height: auto;
                             transform: translateY(100px);
-                            position: relative;
-                            bottom: 0;
                             span {
                                 font-size: 30px;
                                 display: block;

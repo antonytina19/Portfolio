@@ -31,34 +31,26 @@
             top: 56px;
             width: 50px;
             height: 50px;
-            z-index: 30;
-            #check {
-                display: none;
-            }
-            #check:checked~label #remove-btn {
-                opacity: 1;
-                visibility: visible;
-            }
-            #check:checked~label #show-btn {
-                opacity: 0;
-                visibility: hidden;
+            .active {
+                color: rgb(190, 4, 4);
             }
             label {
                 i {
+                    padding: 10px;
                     cursor: pointer;
                     position: absolute;
                     top: 0;
                     left: 0;
                     color: $redcolor;
                     font-size: 50px;
+                    transition: all .4s ease;
+                    &:hover {
+                        background-color: #8b8b8b;
+                    }
                 }
                 #show-btn {
                     opacity: 1;
                     visibility: visible;
-                }
-                #remove-btn {
-                    opacity: 0;
-                    visibility: hidden;
                 }
             }
         }
@@ -236,6 +228,19 @@
         background-color: #2c2727;
         transition: all 0.6s ease-in-out;
         overflow-y: auto;
+        #remove-btn {
+            padding: 10px;
+            cursor: pointer;
+            position: absolute;
+            right: 56px;
+            top: 56px;
+            color: $redcolor;
+            font-size: 50px;
+            transition: all .4s ease;
+            &:hover {
+                background-color: #8b8b8b;
+            }
+        }
         .navlink {
             width: 100%;
             list-style: none;
@@ -300,6 +305,9 @@
                 display: none;
             }
             .menu {
+                #remove-btn {
+                    display: none;
+                }
                 left: 0;
                 top: -100%;
                 bottom: 100%;
@@ -343,16 +351,8 @@
                     .hamburger-icon {
                         height: 50px;
                         width: 50px;
-                        #check1 {
-                            display: none;
-                        }
-                        #check1:checked~label #remove-btn1 {
-                            opacity: 1;
-                            visibility: visible;
-                        }
-                        #check1:checked~label #show-btn1 {
-                            opacity: 0;
-                            visibility: hidden;
+                        .active {
+                            color: rgb(190, 4, 4);
                         }
                         label {
                             i {
@@ -362,25 +362,19 @@
                                 position: absolute;
                                 right: 15px;
                                 z-index: 30;
-                                transition: all .1s linear;
+                                transition: all .5s ease;
                                 &:hover {
                                     color: rgb(190, 4, 4);
                                 }
-                            }
-                            #show-btn1 {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                            #remove-btn1 {
-                                opacity: 0;
-                                visibility: hidden;
                             }
                         }
                     }
                 }
                 main {
-                    transform: translateY(40px);
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                     height: auto;
+                    width: 100%;
                     .content-area {
                         width: 95%;
                         margin: auto;
@@ -393,8 +387,6 @@
                             width: 100%;
                             height: 100%;
                             padding: 46px;
-                            //overflow-y: scroll;
-                            //overflow-x: hidden;
                             z-index: 3;
                             h4 {
                                 font-size: 1rem;
@@ -482,7 +474,7 @@
                     width: auto;
                     background: #474747;
                     height: auto;
-                    transform: translateY(100px);
+                    margin-top: 150px;
                     span {
                         font-size: 30px;
                         display: block;
@@ -540,6 +532,9 @@
                 left: 0;
                 top: -100%;
                 bottom: 100%;
+                #remove-btn {
+                    display: none;
+                }
                 .navlink {
                     margin: 5.5vh 0 5.5vh 0;
                 }
@@ -583,16 +578,8 @@
                     .hamburger-icon {
                         height: 50px;
                         width: 50px;
-                        #check1 {
-                            display: none;
-                        }
-                        #check1:checked~label #remove-btn1 {
-                            opacity: 1;
-                            visibility: visible;
-                        }
-                        #check1:checked~label #show-btn1 {
-                            opacity: 0;
-                            visibility: hidden;
+                        .active {
+                            color: rgb(190, 4, 4);
                         }
                         label {
                             i {
@@ -607,20 +594,14 @@
                                     color: rgb(190, 4, 4);
                                 }
                             }
-                            #show-btn1 {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                            #remove-btn1 {
-                                opacity: 0;
-                                visibility: hidden;
-                            }
                         }
                     }
                 }
                 main {
-                    transform: translateY(40px);
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                     height: auto;
+                    width: 100%;
                     .content-area {
                         width: 95%;
                         margin: auto;
@@ -780,6 +761,9 @@
                 left: 0;
                 top: -100%;
                 bottom: 100%;
+                #remove-btn {
+                    display: none;
+                }
                 .navlink {
                     margin: 5.5vh 0 5.5vh 0;
                 }
@@ -823,16 +807,8 @@
                     .hamburger-icon {
                         height: 50px;
                         width: 50px;
-                        #check1 {
-                            display: none;
-                        }
-                        #check1:checked~label #remove-btn1 {
-                            opacity: 1;
-                            visibility: visible;
-                        }
-                        #check1:checked~label #show-btn1 {
-                            opacity: 0;
-                            visibility: hidden;
+                        .active {
+                            color: rgb(190, 4, 4);
                         }
                         label {
                             i {
@@ -847,20 +823,14 @@
                                     color: rgb(190, 4, 4);
                                 }
                             }
-                            #show-btn1 {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                            #remove-btn1 {
-                                opacity: 0;
-                                visibility: hidden;
-                            }
                         }
                     }
                 }
                 main {
-                    transform: translateY(40px);
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                     height: auto;
+                    width: 100%;
                     .content-area {
                         width: 95%;
                         margin: auto;
@@ -1012,6 +982,9 @@
                 left: 0;
                 top: -100%;
                 bottom: 100%;
+                #remove-btn {
+                    display: none;
+                }
                 .navlink {
                     margin: 5.5vh 0 5.5vh 0;
                 }
@@ -1055,16 +1028,8 @@
                     .hamburger-icon {
                         height: 50px;
                         width: 50px;
-                        #check1 {
-                            display: none;
-                        }
-                        #check1:checked~label #remove-btn1 {
-                            opacity: 1;
-                            visibility: visible;
-                        }
-                        #check1:checked~label #show-btn1 {
-                            opacity: 0;
-                            visibility: hidden;
+                        .active {
+                            color: rgb(190, 4, 4);
                         }
                         label {
                             i {
@@ -1079,20 +1044,14 @@
                                     color: rgb(190, 4, 4);
                                 }
                             }
-                            #show-btn1 {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                            #remove-btn1 {
-                                opacity: 0;
-                                visibility: hidden;
-                            }
                         }
                     }
                 }
                 main {
-                    transform: translateY(40px);
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                     height: auto;
+                    width: 100%;
                     .content-area {
                         width: 95%;
                         margin: auto;
@@ -1105,8 +1064,6 @@
                             width: 100%;
                             height: 100%;
                             padding: 46px;
-                            //overflow-y: scroll;
-                            //overflow-x: hidden;
                             z-index: 3;
                             h4 {
                                 font-size: 1rem;
@@ -1243,6 +1200,9 @@
                 left: 0;
                 top: -100%;
                 bottom: 100%;
+                #remove-btn {
+                    display: none;
+                }
                 .navlink {
                     margin: 5.5vh 0 5.5vh 0;
                 }
@@ -1286,16 +1246,8 @@
                     .hamburger-icon {
                         height: 50px;
                         width: 50px;
-                        #check1 {
-                            display: none;
-                        }
-                        #check1:checked~label #remove-btn1 {
-                            opacity: 1;
-                            visibility: visible;
-                        }
-                        #check1:checked~label #show-btn1 {
-                            opacity: 0;
-                            visibility: hidden;
+                        .active {
+                            color: rgb(190, 4, 4);
                         }
                         label {
                             i {
@@ -1310,20 +1262,14 @@
                                     color: rgb(190, 4, 4);
                                 }
                             }
-                            #show-btn1 {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                            #remove-btn1 {
-                                opacity: 0;
-                                visibility: hidden;
-                            }
                         }
                     }
                 }
                 main {
-                    transform: translateY(150px);
+                    margin-top: 10vh;
+                    margin-bottom: 5vh;
                     height: auto;
+                    width: 100%;
                     .content-area {
                         width: 95%;
                         margin: auto;
@@ -1473,6 +1419,9 @@
                 left: 0;
                 top: -100%;
                 bottom: 100%;
+                #remove-btn {
+                    display: none;
+                }
                 .navlink {
                     margin: 5.5vh 0 5.5vh 0;
                 }
@@ -1516,16 +1465,8 @@
                     .hamburger-icon {
                         height: 50px;
                         width: 50px;
-                        #check1 {
-                            display: none;
-                        }
-                        #check1:checked~label #remove-btn1 {
-                            opacity: 1;
-                            visibility: visible;
-                        }
-                        #check1:checked~label #show-btn1 {
-                            opacity: 0;
-                            visibility: hidden;
+                        .active {
+                            color: rgb(190, 4, 4);
                         }
                         label {
                             i {
@@ -1540,20 +1481,14 @@
                                     color: rgb(190, 4, 4);
                                 }
                             }
-                            #show-btn1 {
-                                opacity: 1;
-                                visibility: visible;
-                            }
-                            #remove-btn1 {
-                                opacity: 0;
-                                visibility: hidden;
-                            }
                         }
                     }
                 }
                 main {
-                    transform: translateY(40px);
+                    margin-top: 5vh;
+                    margin-bottom: 5vh;
                     height: auto;
+                    width: 100%;
                     .content-area {
                         width: 95%;
                         margin: auto;
@@ -1566,8 +1501,6 @@
                             width: 100%;
                             height: 100%;
                             padding: 46px;
-                            //overflow-y: scroll;
-                            //overflow-x: hidden;
                             z-index: 3;
                             h4 {
                                 font-size: 1rem;
@@ -1586,7 +1519,7 @@
                                 border: none;
                                 width: 100%;
                                 background: transparent;
-                                border-bottom: 2px solid #A09EA0; //#F9F8F9 // #6A6B6F;
+                                border-bottom: 2px solid #A09EA0;
                                 margin-bottom: 1rem;
                                 line-height: 1;
                                 font-size: 1rem;
