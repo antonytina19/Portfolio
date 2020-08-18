@@ -373,7 +373,7 @@
                                     position: absolute;
                                     right: 15px;
                                     z-index: 30;
-                                    transition: all .5s ease;
+                                    transition: all .6s ease-in-out;
                                     &:hover {
                                         color: rgb(190, 4, 4);
                                     }
@@ -492,8 +492,11 @@
                                             font-size: 2.5vh;
                                             background-color: orangered;
                                             padding: 10px 15px;
-                                            transform: perspective(100px) rotateX(90deg);
+                                            transform: perspective(100px);
                                             transition: all .6s ease-in-out;
+                                            &:hover {
+                                                background-color: #474747;
+                                            }
                                         }
                                         .not-rotated {
                                             transform: perspective(100px) rotateX(0deg);
@@ -526,7 +529,7 @@
                                 font-size: 30px;
                                 color: white;
                                 border-radius: 100%;
-                                transition: hover .2s ease-in-out;
+                                transition: hover .6s ease-in-out;
                                 &:hover {
                                     color: rgb(190, 4, 4);
                                 }
@@ -621,7 +624,7 @@
                                     position: absolute;
                                     right: 15px;
                                     z-index: 30;
-                                    transition: all .1s linear;
+                                    transition: all .6s ease-in-out;
                                     &:hover {
                                         color: rgb(190, 4, 4);
                                     }
@@ -739,8 +742,11 @@
                                             font-size: 2.5vh;
                                             background-color: orangered;
                                             padding: 10px 15px;
-                                            transform: perspective(100px) rotateX(90deg);
+                                            transform: perspective(100px);
                                             transition: all .6s ease-in-out;
+                                            &:hover {
+                                                background-color: #474747;
+                                            }
                                         }
                                         .not-rotated {
                                             transform: perspective(100px) rotateX(0deg);
@@ -773,7 +779,7 @@
                                 font-size: 30px;
                                 color: white;
                                 border-radius: 100%;
-                                transition: hover .2s ease-in-out;
+                                transition: hover .6s ease-in-out;
                                 &:hover {
                                     color: rgb(190, 4, 4);
                                 }
@@ -869,7 +875,7 @@
                                     position: absolute;
                                     right: 15px;
                                     z-index: 30;
-                                    transition: all .1s linear;
+                                    transition: all .6s ease-in-out;
                                     &:hover {
                                         color: rgb(190, 4, 4);
                                     }
@@ -987,8 +993,11 @@
                                             font-size: 2.5vh;
                                             background-color: orangered;
                                             padding: 10px 15px;
-                                            transform: perspective(100px) rotateX(90deg);
+                                            transform: perspective(100px);
                                             transition: all .6s ease-in-out;
+                                            &:hover {
+                                                background-color: #474747;
+                                            }
                                         }
                                         .not-rotated {
                                             transform: perspective(100px) rotateX(0deg);
@@ -1021,7 +1030,7 @@
                                 font-size: 30px;
                                 color: white;
                                 border-radius: 100%;
-                                transition: hover .2s ease-in-out;
+                                transition: hover .6s ease-in-out;
                                 &:hover {
                                     color: rgb(190, 4, 4);
                                 }
@@ -1109,7 +1118,7 @@
                                     position: absolute;
                                     right: 15px;
                                     z-index: 30;
-                                    transition: all .1s linear;
+                                    transition: all .6s ease-in-out;
                                     &:hover {
                                         color: rgb(190, 4, 4);
                                     }
@@ -1227,8 +1236,11 @@
                                             font-size: 2.5vh;
                                             background-color: orangered;
                                             padding: 10px 15px;
-                                            transform: perspective(100px) rotateX(90deg);
+                                            transform: perspective(100px);
                                             transition: all .6s ease-in-out;
+                                            &:hover {
+                                                background-color: #474747;
+                                            }
                                         }
                                         .not-rotated {
                                             transform: perspective(100px) rotateX(0deg);
@@ -1261,7 +1273,7 @@
                                 font-size: 30px;
                                 color: white;
                                 border-radius: 100%;
-                                transition: hover .2s ease-in-out;
+                                transition: hover .6s ease-in-out;
                                 &:hover {
                                     color: rgb(190, 4, 4);
                                 }
@@ -1348,7 +1360,7 @@
                                     position: absolute;
                                     right: 15px;
                                     z-index: 30;
-                                    transition: all .1s linear;
+                                    transition: all .6s ease-in-out;
                                     &:hover {
                                         color: rgb(190, 4, 4);
                                     }
@@ -1465,8 +1477,11 @@
                                             font-size: 2.5vh;
                                             background-color: orangered;
                                             padding: 10px 15px;
-                                            transform: perspective(100px) rotateX(90deg);
+                                            transform: perspective(100px);
                                             transition: all .6s ease-in-out;
+                                            &:hover {
+                                                background-color: #474747;
+                                            }
                                         }
                                         .not-rotated {
                                             transform: perspective(100px) rotateX(0deg);
@@ -1499,7 +1514,7 @@
                                 font-size: 30px;
                                 color: white;
                                 border-radius: 100%;
-                                transition: hover .2s ease-in-out;
+                                transition: hover .6s ease-in-out;
                                 &:hover {
                                     color: rgb(190, 4, 4);
                                 }

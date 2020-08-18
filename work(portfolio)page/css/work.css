@@ -473,8 +473,8 @@ body {
     position: absolute;
     right: 15px;
     z-index: 30;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
   }
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
@@ -626,10 +626,13 @@ body {
     font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
-    -webkit-transform: perspective(100px) rotateX(90deg);
-            transform: perspective(100px) rotateX(90deg);
+    -webkit-transform: perspective(100px);
+            transform: perspective(100px);
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .view:hover {
+    background-color: #474747;
   }
   body .responsive main .content-area .work .project-section a .not-rotated {
     -webkit-transform: perspective(100px) rotateX(0deg);
@@ -666,8 +669,8 @@ body {
     font-size: 30px;
     color: white;
     border-radius: 100%;
-    -webkit-transition: hover .2s ease-in-out;
-    transition: hover .2s ease-in-out;
+    -webkit-transition: hover .6s ease-in-out;
+    transition: hover .6s ease-in-out;
   }
   body .responsive footer .icon-section i:hover {
     color: #be0404;
@@ -772,8 +775,8 @@ body {
     position: absolute;
     right: 15px;
     z-index: 30;
-    -webkit-transition: all .1s linear;
-    transition: all .1s linear;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
   }
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
@@ -924,10 +927,13 @@ body {
     font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
-    -webkit-transform: perspective(100px) rotateX(90deg);
-            transform: perspective(100px) rotateX(90deg);
+    -webkit-transform: perspective(100px);
+            transform: perspective(100px);
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .view:hover {
+    background-color: #474747;
   }
   body .responsive main .content-area .work .project-section a .not-rotated {
     -webkit-transform: perspective(100px) rotateX(0deg);
@@ -965,8 +971,8 @@ body {
     font-size: 30px;
     color: white;
     border-radius: 100%;
-    -webkit-transition: hover .2s ease-in-out;
-    transition: hover .2s ease-in-out;
+    -webkit-transition: hover .6s ease-in-out;
+    transition: hover .6s ease-in-out;
   }
   body .responsive footer .icon-section i:hover {
     color: #be0404;
@@ -1071,8 +1077,8 @@ body {
     position: absolute;
     right: 15px;
     z-index: 30;
-    -webkit-transition: all .1s linear;
-    transition: all .1s linear;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
   }
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
@@ -1223,10 +1229,13 @@ body {
     font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
-    -webkit-transform: perspective(100px) rotateX(90deg);
-            transform: perspective(100px) rotateX(90deg);
+    -webkit-transform: perspective(100px);
+            transform: perspective(100px);
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .view:hover {
+    background-color: #474747;
   }
   body .responsive main .content-area .work .project-section a .not-rotated {
     -webkit-transform: perspective(100px) rotateX(0deg);
@@ -1264,8 +1273,8 @@ body {
     font-size: 30px;
     color: white;
     border-radius: 100%;
-    -webkit-transition: hover .2s ease-in-out;
-    transition: hover .2s ease-in-out;
+    -webkit-transition: hover .6s ease-in-out;
+    transition: hover .6s ease-in-out;
   }
   body .responsive footer .icon-section i:hover {
     color: #be0404;
@@ -1364,8 +1373,8 @@ body {
     position: absolute;
     right: 15px;
     z-index: 30;
-    -webkit-transition: all .1s linear;
-    transition: all .1s linear;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
   }
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
@@ -1516,10 +1525,13 @@ body {
     font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
-    -webkit-transform: perspective(100px) rotateX(90deg);
-            transform: perspective(100px) rotateX(90deg);
+    -webkit-transform: perspective(100px);
+            transform: perspective(100px);
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .view:hover {
+    background-color: #474747;
   }
   body .responsive main .content-area .work .project-section a .not-rotated {
     -webkit-transform: perspective(100px) rotateX(0deg);
@@ -1557,8 +1569,8 @@ body {
     font-size: 30px;
     color: white;
     border-radius: 100%;
-    -webkit-transition: hover .2s ease-in-out;
-    transition: hover .2s ease-in-out;
+    -webkit-transition: hover .6s ease-in-out;
+    transition: hover .6s ease-in-out;
   }
   body .responsive footer .icon-section i:hover {
     color: #be0404;
@@ -1657,8 +1669,8 @@ body {
     position: absolute;
     right: 15px;
     z-index: 30;
-    -webkit-transition: all .1s linear;
-    transition: all .1s linear;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
   }
   body .responsive header .hamburger-icon label i:hover {
     color: #be0404;
@@ -1808,10 +1820,13 @@ body {
     font-size: 2.5vh;
     background-color: orangered;
     padding: 10px 15px;
-    -webkit-transform: perspective(100px) rotateX(90deg);
-            transform: perspective(100px) rotateX(90deg);
+    -webkit-transform: perspective(100px);
+            transform: perspective(100px);
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
+  }
+  body .responsive main .content-area .work .project-section a .view:hover {
+    background-color: #474747;
   }
   body .responsive main .content-area .work .project-section a .not-rotated {
     -webkit-transform: perspective(100px) rotateX(0deg);
@@ -1849,8 +1864,8 @@ body {
     font-size: 30px;
     color: white;
     border-radius: 100%;
-    -webkit-transition: hover .2s ease-in-out;
-    transition: hover .2s ease-in-out;
+    -webkit-transition: hover .6s ease-in-out;
+    transition: hover .6s ease-in-out;
   }
   body .responsive footer .icon-section i:hover {
     color: #be0404;
