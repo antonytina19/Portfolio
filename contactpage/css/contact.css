@@ -554,7 +554,6 @@ body {
     width: auto;
     background: #474747;
     height: auto;
-    margin-top: 150px;
   }
   body .responsive footer span {
     font-size: 30px;
@@ -797,8 +796,6 @@ body {
     width: auto;
     background: #474747;
     height: auto;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
   }
   body .responsive footer span {
     font-size: 30px;
@@ -1041,8 +1038,6 @@ body {
     width: auto;
     background: #474747;
     height: auto;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
   }
   body .responsive footer span {
     font-size: 30px;
@@ -1279,8 +1274,6 @@ body {
     width: auto;
     background: #474747;
     height: auto;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
   }
   body .responsive footer span {
     font-size: 30px;
@@ -1517,8 +1510,6 @@ body {
     width: auto;
     background: #474747;
     height: auto;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
   }
   body .responsive footer span {
     font-size: 30px;
@@ -1755,8 +1746,6 @@ body {
     width: auto;
     background: #474747;
     height: auto;
-    -webkit-transform: translateY(100px);
-            transform: translateY(100px);
   }
   body .responsive footer span {
     font-size: 30px;
