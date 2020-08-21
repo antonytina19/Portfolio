@@ -28,10 +28,10 @@
             height: 100%;
             .hamburger-icon {
                 position: fixed;
-                right: 56px;
-                top: 56px;
-                width: 50px;
-                height: 50px;
+                right: 2.8vw;
+                top: 5vh;
+                width: 2.6vw;
+                height: 4.7vh;
                 .active {
                     color: rgb(190, 4, 4);
                 }
@@ -43,7 +43,7 @@
                         top: 0;
                         left: 0;
                         color: $redcolor;
-                        font-size: 50px;
+                        font-size: 2.6vw;
                         transition: all .4s ease;
                         &:hover {
                             background-color: #8b8b8b;
@@ -64,15 +64,15 @@
             top: 0;
             bottom: 0;
             left: 0;
-            padding: 70px;
+            padding: 6.5vh 3.6vw;
             .logo {
-                border: 10px solid white;
+                border: .5vw solid white;
                 border-radius: 5px;
-                width: 200px;
-                height: 100px;
+                width: 10.5vw;
+                height: 5.25vw;
                 color: white;
                 text-align: center;
-                font-size: 35px;
+                font-size: 1.9vw;
                 font-weight: 500;
                 font-family: sans-serif;
                 letter-spacing: 3px;
@@ -84,15 +84,15 @@
             .info-box {
                 color: white;
                 position: absolute;
-                bottom: 90px;
+                bottom: 4.7vw;
                 font-family: 'Montserrat', sans-serif;
                 h4 {
-                    font-size: 1.4rem;
+                    font-size: 1.4vw;
                     margin: 0.7rem 0;
                 }
                 p {
                     font-weight: 300;
-                    font-size: 1.2rem;
+                    font-size: 1.25vw;
                     margin: 0.2rem 0 1.6rem;
                 }
                 .icon-section {
@@ -102,7 +102,7 @@
                         color: white;
                         transition: all 0.35s ease-in-out;
                         i {
-                            font-size: 35px;
+                            font-size: 2vw;
                             transition: all 0.5s ease-in-out;
                         }
                         i:hover {
@@ -122,14 +122,14 @@
             overflow: hidden;
             .scroll-section {
                 height: 100vh;
-                padding: 56px;
+                padding: 3vw;
                 overflow-x: none;
                 overflow-y: scroll;
                 z-index: 5;
                 .work {
                     h1 {
                         font-weight: 750;
-                        font-size: 2.5rem;
+                        font-size: 2.1vw;
                         margin-bottom: 56px;
                         letter-spacing: 5px;
                     }
@@ -138,8 +138,8 @@
                         grid-template-columns: 1fr 1fr;
                         .project-box {
                             position: relative;
-                            padding: 30px;
-                            height: 400px;
+                            padding: 1.6vw;
+                            height: 20vw;
                             width: auto;
                             transition: all 0.5s ease-in-out;
                             overflow: hidden;
@@ -187,20 +187,20 @@
                                 .project-info {
                                     position: absolute;
                                     bottom: 0;
-                                    padding: 56px;
+                                    padding: 3vw;
                                     width: 100%;
                                     .project-details {
                                         font-weight: 900;
-                                        font-size: 1.1rem;
+                                        font-size: 1vw;
                                         text-transform: capitalize;
-                                        margin-bottom: 1rem;
+                                        margin-bottom: .83vw;
                                         transform: translate3d(-200px, 0, 0);
                                         transition: transform 0.4s ease-in-out;
                                         letter-spacing: 2px;
                                     }
                                     .project-title {
                                         font-weight: 900;
-                                        font-size: 1.8rem;
+                                        font-size: 1.5vw;
                                         text-transform: uppercase;
                                         font-weight: 700;
                                         transform: translate3d(-200px, 0, 0);
@@ -210,9 +210,9 @@
                                     .fa-long-arrow-right {
                                         font-weight: 900;
                                         position: absolute;
-                                        bottom: 25px;
-                                        right: 90px;
-                                        font-size: 7rem;
+                                        bottom: 1.3vw;
+                                        right: 4.7vw;
+                                        font-size: 6vw;
                                     }
                                 }
                             }
